@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(232, 209, 174);
+}
+header {
+  background-color: rgb(96, 124, 96);
+  color: whitesmoke;
+  margin-top: 80px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 2px;
+  
+}
+.head {
+  display: block;
+  text-align: center;
+  margin: 0px 20px;
+  padding: 1px;
+}
+.content {
+  
+  text-align: center;
+  margin: 8px 70px;
+  padding: 10px;
+}
+.content-login {
+  display: inline; 
+  text-align: center;
+  margin: 20px 100px;
+  padding: 10px;
+  height: 75px;
+
+}
+
+.container {
+  background-color: rgb(216, 196, 158);
+  color: rgb(29, 27, 27);
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 5px;
+  display: flex;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form label {
+  text-align: right;
+  clear: both;
+  float: left;
+  margin-right: 25px;
+}
+input {
+  align-items: center;
+  height: 35px;
+  width: 280px;
+  border: 1px solid #000;
+  margin-top: 10px;
+  margin-left: 4px;
+
+  
+}
+.left{
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+.error {
+  color: rgb(176, 54, 54);
+  margin-top: 5px;
+}
+.submit{
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  
+}
+.submit-login{
+  text-align: center;
+  margin: 8px 0px;
+  padding: 0.5px;
+
+}
+button {
+  padding: 8px 20px;
+  margin-top: 0.5px;
+  background-color: rgb(83, 110, 83);
+  border-radius: 6px;
+  
+}

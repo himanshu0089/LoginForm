@@ -1,0 +1,6 @@
+To run the app:
+
+1. npm init -y
+2. cd vite-latest // if you are on differnt path
+3. npm install
+4. npm run dev
